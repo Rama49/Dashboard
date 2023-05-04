@@ -16,6 +16,7 @@ const Nave = () => {
   return (
     <Navbar bg="light" expand="lg" className='sticky-top'>
       <Container className=''>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto float-end w-100">
             <Nav.Link href="#link" className='h-25 w-100 d-flex justify-content-end' >
