@@ -9,7 +9,7 @@ import fleche2 from "../Components/image/fleche2.png";
 
 const Dash = () => {
   return (
-    <section className="offset-3 offset-lg-2 mt-5">
+    <section className="offset-4 offset-lg-2 mt-5">
       <div className="row mb-3 d-flex justify-content-center">
         <div className="une col-lg-2 col-md-4 col-sm-6 col-xs-12 me-3 text-center mb-3">
           <FaAddressCard />
@@ -108,9 +108,9 @@ const Dash = () => {
           </div>
         </div>
       </div>
-      <div className="offset-lg-1 me-2">
+      {/* <div className="offset-lg-1 mx-2">
         <div className="row ">
-          <div className="col-lg-1  col-md-1 col-sm-1 col-xs-1 w-25">
+          <div className="col-lg-1  col-md-1 col-sm-1 col-xs-1 ">
             <img src={fleche1} className="img-fluid" />
           </div>
           <div className="col-lg-2 w-25 col-md-1  col-sm-1">
@@ -120,16 +120,10 @@ const Dash = () => {
                     <p>Godwin</p>
                 </div>
                 <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>N200.000</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
                     <p>Mon,Feb 15 2023</p>
                 </div>
                 <div className="col-lg-2 w-25 col-md-1 col-sm-1">
                     <p>00:45:20 AM</p>
-                </div>
-                <div className="col-lg-1 w-25 col-md-1 col-sm-1">
-                    <p>Disbursed</p>
                 </div>
         </div>
         <div className="row ">
@@ -146,13 +140,7 @@ const Dash = () => {
                     <p>N200.000</p>
                 </div>
                 <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>Tue,Feb 15 2023</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
                     <p>00:45:20 AM</p>
-                </div>
-                <div className="col-lg-1 w-25 col-md-1 col-sm-1">
-                    <p>Disbursed</p>
                 </div>
         </div>
         <div className="row ">
@@ -166,16 +154,10 @@ const Dash = () => {
                     <p>Godwin</p>
                 </div>
                 <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>N200.000</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
                     <p>Wed,Feb 15 2023</p>
                 </div>
                 <div className="col-lg-2 w-25 col-md-1 col-sm-1">
                     <p>00:45:20 AM</p>
-                </div>
-                <div className="col-lg-1 w-25 col-md-1 col-sm-1">
-                    <p>Disbursed</p>
                 </div>
         </div>
         <div className="row ">
@@ -189,16 +171,44 @@ const Dash = () => {
                     <p>Godwin</p>
                 </div>
                 <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>N200.000</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
                     <p>Thur,Feb 15 2023</p>
                 </div>
                 <div className="col-lg-2 w-25 col-md-1 col-sm-1">
                     <p>00:45:20 AM</p>
                 </div>
+        </div>
+        <div className="row ">
+          <div className="col-lg-1  col-md-1 col-sm-1 col-xs-1 w-25">
+            <img src={fleche1} className="img-fluid" />
+          </div>
+          <div className="col-lg-2 w-25 col-md-1  col-sm-1">
+                    <p>Monday</p>
+                </div>
                 <div className="col-lg-1 w-25 col-md-1 col-sm-1">
-                    <p>Disbursed</p>
+                    <p>Godwin</p>
+                </div>
+                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
+                    <p>Mon,Feb 15 2023</p>
+                </div>
+                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
+                    <p>00:45:20 AM</p>
+                </div>
+        </div>
+        <div className="row ">
+          <div className="col-lg-1  col-md-1 col-sm-1 col-xs-1 w-25">
+            <img src={fleche1} className="img-fluid" />
+          </div>
+          <div className="col-lg-2 w-25 col-md-1  col-sm-1">
+                    <p>Monday</p>
+                </div>
+                <div className="col-lg-1 w-25 col-md-1 col-sm-1">
+                    <p>Godwin</p>
+                </div>
+                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
+                    <p>Mon,Feb 15 2023</p>
+                </div>
+                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
+                    <p>00:45:20 AM</p>
                 </div>
         </div>
         <div className="row ">
@@ -224,53 +234,7 @@ const Dash = () => {
                     <p>Disbursed</p>
                 </div>
         </div>
-        <div className="row ">
-          <div className="col-lg-1  col-md-1 col-sm-1 col-xs-1 w-25">
-            <img src={fleche1} className="img-fluid" />
-          </div>
-          <div className="col-lg-2 w-25 col-md-1  col-sm-1">
-                    <p>Monday</p>
-                </div>
-                <div className="col-lg-1 w-25 col-md-1 col-sm-1">
-                    <p>Godwin</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>N200.000</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>Mon,Feb 15 2023</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>00:45:20 AM</p>
-                </div>
-                <div className="col-lg-1 w-25 col-md-1 col-sm-1">
-                    <p>Disbursed</p>
-                </div>
-        </div>
-        <div className="row ">
-          <div className="col-lg-1  col-md-1 col-sm-1 col-xs-1 w-25">
-            <img src={fleche1} className="img-fluid" />
-          </div>
-          <div className="col-lg-2 w-25 col-md-1  col-sm-1">
-                    <p>Monday</p>
-                </div>
-                <div className="col-lg-1 w-25 col-md-1 col-sm-1">
-                    <p>Godwin</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>N200.000</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>Mon,Feb 15 2023</p>
-                </div>
-                <div className="col-lg-2 w-25 col-md-1 col-sm-1">
-                    <p>00:45:20 AM</p>
-                </div>
-                <div className="col-lg-1 w-25 col-md-1 col-sm-1">
-                    <p>Disbursed</p>
-                </div>
-        </div>
-      </div>
+      </div> */}
     </section>
   );
 };
