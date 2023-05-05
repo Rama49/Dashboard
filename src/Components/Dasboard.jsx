@@ -1,3 +1,4 @@
+import Table from 'react-bootstrap/Table';
 import { FaAddressCard } from "react-icons/fa";
 import graph from "../Components/image/graph.png";
 import cercle from "../Components/image/cercle.png";
@@ -108,8 +109,8 @@ const Dash = () => {
           </div>
         </div>
       </div>
-      {/* <div className="offset-lg-1 mx-2">
-        <div className="row ">
+      <div className="offset-lg-1 mx-2">
+        {/* <div className="row ">
           <div className="col-lg-1  col-md-1 col-sm-1 col-xs-1 ">
             <img src={fleche1} className="img-fluid" />
           </div>
@@ -233,8 +234,72 @@ const Dash = () => {
                 <div className="col-lg-1 w-25 col-md-1 col-sm-1">
                     <p>Disbursed</p>
                 </div>
-        </div>
-      </div> */}
+        </div>*/}
+
+
+<Table responsive>
+  <tbody>
+    <tr>
+      <td>
+        <img src={fleche1} className="img-fluid" />
+      </td>
+      {["Lundi", "Godwin", "N200.200", "Lun, Feb 12 2023", "00:4520 AM", "Disbursed"].map((day) => (
+        <td>{day}</td>
+      ))}
+    </tr>
+    <tr>
+      <td>
+        <img src={fleche1} className="img-fluid" />
+      </td>
+      {["Mardi", "Godwin", "N200.200", "Mar, Feb 12 2023", "00:4520 AM", "Disbursed"].map((day) => (
+        <td>{day}</td>
+      ))}
+    </tr>
+    <tr>
+      <td>
+        1
+        <img src={fleche2} className="img-fluid" />
+      </td>
+      {["Mercredi", "Godwin", "N200.200", "Mer, Feb 12 2023", "00:4520 AM", "Disbursed"].map((day) => (
+        <td>{day}</td>
+      ))}
+    </tr>
+    <tr>
+      <td>
+        <img src={fleche1} className="img-fluid" />
+      </td>
+      {["Jeudi", "Godwin", "N200.200", "Jeu, Feb 12 2023", "00:4520 AM", "Disbursed"].map((day) => (
+        <td>{day}</td>
+      ))}
+    </tr>
+    <tr>
+      <td>
+        <img src={fleche1} className="img-fluid" />
+      </td>
+      {["Vendredi", "Godwin", "N200.200", "Ven, Feb 12 2023", "00:4520 AM", "Disbursed"].map((day) => (
+        <td>{day}</td>
+      ))}
+    </tr>
+    <tr>
+      <td>
+        <img src={fleche1} className="img-fluid" />
+      </td>
+      {["Samedi", "Godwin", "N200.200", "Sam, Feb 12 2023", "00:4520 AM", "Disbursed"].map((day) => (
+        <td>{day}</td>
+      ))}
+    </tr>
+    <tr>
+      <td>
+        <img src={fleche1} className="img-fluid" />
+      </td>
+      {["Dimanche", "Godwin", "N200.200", "Dim, Feb 12 2023", "00:4520 AM", "Disbursed"].map((day) => (
+        <td>{day}</td>
+      ))}
+    </tr>
+  </tbody>
+</Table>
+
+      </div> 
     </section>
   );
 };
